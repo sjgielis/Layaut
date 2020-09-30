@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#e6e6e6;
+}
+
+header, main, footer {
+    width: 90%;
+    margin: 20px auto;
+}
+header nav{
+    background-color: #528fd5;
+    overflow: hidden;
+    }
+
+header nav ul{
+    list-style: none ;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #75acec;
+}
+
+section{
+    width: 69%;
+    float: left;
+    margin-right: 1%;
+}
+
+aside{
+    width: 30%;
+    background-color: #ff8800;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+article{
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black ;
+    color: #ffffff;
+    clear: both;
+    padding: 10px 0;
+    text-align: center;
+}
+
+figure{
+    padding: 30px;
+}
+
+h2{
+ text-align: center;   
+}
+
+/*.fondo-1{
+    background-image: url("../img/perro1.jpg") ;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: bottom;
+}*/
